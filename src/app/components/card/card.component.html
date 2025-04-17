@@ -1,0 +1,9 @@
+<h1>Area:</h1>
+<ul *ngIf="area">
+    <li>Zone: {{ area.zone.timezone }}</li>
+    <li>Country: {{ area.zone.country }}</li>
+    <li>State: {{ area.zone.state }}</li>
+    <li>City: {{ area.zone.city }}</li>
+    <li>Drink: {{ area.drink }}</li>
+</ul>
+<p *ngIf="!area">Loading . . .</p>
