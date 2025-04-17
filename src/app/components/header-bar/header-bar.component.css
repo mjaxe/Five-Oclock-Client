@@ -1,0 +1,19 @@
+.site-header {
+    background-color: #0077b6; /* Ocean blue */
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.header-logo img {
+    height: 40px;
+    width: auto;
+  }
