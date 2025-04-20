@@ -1,19 +1,35 @@
 .site-header {
-    background-color: #0077b6; /* Ocean blue */
-    color: white;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #0077b6;
+    padding: 0.5em 0;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+    align-items: center;
 }
 
-.header-logo{
+.header-title {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    font-size: 1.25rem;
-    font-weight: bold;
+    justify-content: center;
+    gap: 0.25em;
+    background-color: #0080d3;
+    flex-wrap: wrap;
+
 }
 
-.header-logo img {
-    height: 40px;
-    width: auto;
+.header-text {
+    margin: 0.5em 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    background: linear-gradient(to top, #db0000, #ffd104);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
   }
+
+@media (max-width: 393px) {
+    .header-text {
+        font-size: 2rem; /* Shrink the font size */
+    }
+}
