@@ -1,0 +1,13 @@
+.palm-tree {
+    position: fixed;
+    left: -100px;
+    top: 300px;
+    width: 600px;
+    height: 400rem;
+    background-image: url('../../../assets/palm-tree.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    z-index: 9;
+    pointer-events: none;
+  }
