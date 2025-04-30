@@ -4,7 +4,9 @@ html, body {
 
 body { 
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
    background-color: rgb(190, 238, 238);
   /* background: linear-gradient(#ff0303, #ff6200); */
 } 

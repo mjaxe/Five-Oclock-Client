@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-date: string = "April 2025"
+  lastUpdate: string = "April 2025"
 }

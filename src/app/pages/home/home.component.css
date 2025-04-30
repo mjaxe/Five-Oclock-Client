@@ -21,9 +21,9 @@ app-header-bar {
   z-index: 3;
 }
 
-app-card {
+.fiveOclockCard {
   margin: auto;
-  width: 50%;
+  width: 60%;
   z-index: 3;
   position: relative;
 }
@@ -34,7 +34,7 @@ app-card {
   top: 18rem;
   width: 70rem;
   height: 400rem;
-  background-image: url('../../../assets/9421225.png');
+  background-image: url('../../../assets/palm\ tree.png');
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;

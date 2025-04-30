@@ -21,7 +21,7 @@ export class AreaService {
     return of(this.area)
   }
 
-  area: Area = new Area(new Zone('America/Halifax','Canada','Nova Scotia','Halifax'), `The 'Dark 'N' Stormy' is a popular cocktail in Halifax, Canada. It consists of:\n- 1.5 oz dark rum\n- 4 oz ginger beer\n- Lime wedge (for garnish)\n\nCombine rum and ginger beer in a glass, squeeze in lime juice, and garnish with a lime wedge.`)
+  area: Area = new Area(new Zone('America/Montevideo','Uruguay',null,'Montevideo'), `Medio y Medio. \n- 1 1/2 oz white wine (preferably Uruguayan)\n- 1 1/2 oz sparkling wine (preferably Uruguayan)\n- Splash of lemon-lime soda (optional, for some extra fizz)\n- Slice of lemon, for garnish`)
   
 
 }

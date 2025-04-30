@@ -1,21 +1,25 @@
 
-<div class="card-content">
+<div *ngIf="!isLoading" class="card-content">
     <div class="card-title">
         It's currently 5 O'Clock In . . .
     </div>
     <div class="card-area">
-        <p *ngIf="area">
+        <p>
             <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city}}
         </p>
-        <div *ngIf="!area">Loading . . .</div>
     </div>
     <div class="card-drink-title">
         A Popular Drink There:
     </div>
     <div class="card-drink-recipe">
-        <ul *ngIf="area">
-            <li>Drink: {{ area.drink }}</li>
+        <p>{{drinkName}}:</p>
+        <ul>
+            <li *ngFor="let ingredient of drinkIngredients">{{ingredient}}</li>
         </ul>
-        <p *ngIf="!area">Loading . . .</p>
     </div>
+    <button class="new-area" (click)="showNewArea()">Take me Somewhere New!</button>
+</div>
+<div *ngIf="isLoading" class="loader">
+    <img src="../../../assets/beer loader.gif"/>
+    <div>Pouring one for you ;)</div>
 </div>
