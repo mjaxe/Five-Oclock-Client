@@ -1,9 +1,21 @@
-<h1>Area:</h1>
-<ul *ngIf="area">
-    <li>Zone: {{ area.zone.timezone }}</li>
-    <li>Country: {{ area.zone.country }}</li>
-    <li>State: {{ area.zone.state }}</li>
-    <li>City: {{ area.zone.city }}</li>
-    <li>Drink: {{ area.drink }}</li>
-</ul>
-<p *ngIf="!area">Loading . . .</p>
+
+<div class="card-content">
+    <div class="card-title">
+        It's currently 5 O'Clock In . . .
+    </div>
+    <div class="card-area">
+        <p *ngIf="area">
+            <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city}}
+        </p>
+        <div *ngIf="!area">Loading . . .</div>
+    </div>
+    <div class="card-drink-title">
+        A Popular Drink There:
+    </div>
+    <div class="card-drink-recipe">
+        <ul *ngIf="area">
+            <li>Drink: {{ area.drink }}</li>
+        </ul>
+        <p *ngIf="!area">Loading . . .</p>
+    </div>
+</div>

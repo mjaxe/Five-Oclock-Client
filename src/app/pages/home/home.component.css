@@ -1,13 +1,42 @@
+.home-wrapper {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+app-footer-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+app-header-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+app-card {
+  margin: auto;
+  width: 50%;
+  z-index: 3;
+  position: relative;
+}
+
 .palm-tree {
-    position: fixed;
-    left: -100px;
-    top: 300px;
-    width: 600px;
-    height: 400rem;
-    background-image: url('../../../assets/palm-tree.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left top;
-    z-index: 9;
-    pointer-events: none;
-  }
+  position: absolute;
+  right: -200px;
+  top: 18rem;
+  width: 70rem;
+  height: 400rem;
+  background-image: url('../../../assets/9421225.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 0;
+}

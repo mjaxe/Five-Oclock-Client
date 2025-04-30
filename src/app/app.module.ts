@@ -8,12 +8,14 @@ import { CardComponent } from './components/card/card.component';
 import { HeaderBarComponent } from './components/header-bar/header-bar.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CardComponent,
-    HeaderBarComponent
+    HeaderBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
