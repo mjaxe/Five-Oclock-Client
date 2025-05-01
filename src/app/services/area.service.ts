@@ -15,6 +15,7 @@ export class AreaService {
   backendUrl: string = 'https://five-oclock-server-production.up.railway.app/zones'
 
   getAreaThroughBackend(): Observable<Area> {
+    console.log(`Hitting: `)
     return this.httpClient.get<Area>(this.backendUrl)
   }
 
