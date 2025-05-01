@@ -23,6 +23,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "stylePreprocessorOptions": {
+              "includePaths": []
+            },
             "outputPath": "dist/five-oclock-somewhere",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -38,7 +41,10 @@
               "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "optimization": {
+              "fonts": false 
+            }
           },
           "configurations": {
             "production": {
