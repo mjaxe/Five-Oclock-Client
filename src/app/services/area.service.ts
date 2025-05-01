@@ -10,8 +10,9 @@ import { HttpClient } from '@angular/common/http';
 export class AreaService {
 
   constructor(private httpClient: HttpClient) { }
-
-  backendUrl: string = 'https://five-oclock-server.onrender.com/zones'
+  // Use if railway shuts down
+  // backendUrl: string = 'https://five-oclock-server.onrender.com/zones'
+  backendUrl: string = 'https://five-oclock-server-production.up.railway.app/zones'
 
   getAreaThroughBackend(): Observable<Area> {
     return this.httpClient.get<Area>(this.backendUrl)
