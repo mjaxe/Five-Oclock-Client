@@ -40,14 +40,28 @@ app-header-bar {
   pointer-events: none;
   z-index: 0;
 } */
+.home-wrapper{
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
 
 .palm-tree {
   position: absolute;
   right: -25rem;
-  top: 18rem;
+  top: 23rem;
   width: 70rem;
   height: 400rem;
   background-image: url('../../../assets/palm\ tree.png');
   background-repeat: no-repeat;
   background-size: contain;
+  pointer-events: none;
+  z-index: 0;
 }
