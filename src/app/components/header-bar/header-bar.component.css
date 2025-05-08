@@ -30,15 +30,21 @@
     color: orange;
   } */
 .header-bar {
-    padding-top: env(safe-area-inset-top);
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+
     background-color: #0097b2;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
-    padding: 7rem;
+    padding: 6rem;
   }
 
   .header-content {
