@@ -29,7 +29,13 @@
     height: 30px;
     color: orange;
   } */
-
+  @media (orientation: landscape) {
+    .header-bar  {
+        height: 100vh; /* Full viewport height */
+        padding-top: var(--notch-height, 24px); /* Account for notch (if applicable) */
+        padding-bottom: var(--bottom-bar-height, 24px); /* Account for bottom bar */
+    }
+}
 .header-bar {
     background-color: #0097b2;
     display: flex;
