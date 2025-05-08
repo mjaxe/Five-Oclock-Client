@@ -40,3 +40,14 @@ app-header-bar {
   pointer-events: none;
   z-index: 0;
 } */
+
+.palm-tree {
+  position: absolute;
+  right: -25rem;
+  top: 18rem;
+  width: 70rem;
+  height: 400rem;
+  background-image: url('../../../assets/palm\ tree.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
