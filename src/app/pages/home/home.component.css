@@ -69,7 +69,6 @@ app-header-bar {
 @media (max-width: 768px) {
   .palm-tree {
     right: -12rem;
-    top: 12rem;
     width: 35rem;
     height: 200rem;
   }
