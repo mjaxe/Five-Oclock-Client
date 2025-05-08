@@ -30,8 +30,9 @@
     color: orange;
   } */
 .header-bar {
-    padding-left: env(safe-area-inset-left, 0);
-    padding-right: env(safe-area-inset-right, 0);
+    padding-top: env(safe-area-inset-top);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
     background-color: #0097b2;
     display: flex;
     justify-content: center;
