@@ -44,6 +44,7 @@ app-header-bar {
   position: relative;
   height: 100vh;
   overflow-x: hidden;
+  padding-top: 30rem;
 }
 
 .header-bar {
@@ -66,10 +67,25 @@ app-header-bar {
   z-index: 0;
 }
 
+.five-oclock-card {
+  margin: 20rem auto 20rem;
+  width: 60%;
+  position: relative;
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
   .palm-tree {
     right: -12rem;
     width: 35rem;
     height: 200rem;
+  }
+
+  .five-oclock-card {
+    width: 90%;
   }
 }
