@@ -73,11 +73,6 @@ app-header-bar {
   position: relative;
 }
 
-
-
-
-
-
 @media (max-width: 768px) {
   .palm-tree {
     right: -12rem;

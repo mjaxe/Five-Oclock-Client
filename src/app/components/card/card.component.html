@@ -5,14 +5,14 @@
     </div>
     <div class="card-area">
         <p>
-            <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city}}
+            <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city }}
         </p>
     </div>
     <div class="card-drink-title">
         A Popular Drink There:
     </div>
     <div class="card-drink-recipe">
-        <p>{{drinkName}}:</p>
+        <p><b>{{drinkName}}:</b></p>
         <ul>
             <li *ngFor="let ingredient of drinkIngredients">{{ingredient}}</li>
         </ul>
