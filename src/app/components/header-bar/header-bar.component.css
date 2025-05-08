@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
-    padding: 10rem;
+    padding: 7rem;
   }
 
   .header-content {
@@ -48,8 +48,8 @@
 
   .header-text {
     color: white;
-    font-size: clamp(2rem, 5rem, 6rem);
-    font-weight: 900;
+    font-size: clamp(1rem, 2.5rem, 3rem);
+    font-weight: 800;
     text-align: center;
   }
 
