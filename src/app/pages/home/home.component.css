@@ -48,7 +48,7 @@ app-header-bar {
 }
 
 .header-bar {
-  /* position: fixed; */
+  position: relative;
   /* top: 0; */
   width: 100%;
   z-index: 10;
