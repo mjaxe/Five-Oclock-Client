@@ -1,57 +1,12 @@
-/* .home-wrapper {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-
-app-footer-bar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 3;
-}
-
-app-header-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-}
-
-.fiveOclockCard {
-  margin: auto;
-  width: 60%;
-  z-index: 3;
-  position: relative;
-}
-
-.palm-tree {
-  position: absolute;
-  right: -200px;
-  top: 18rem;
-  width: 70rem;
-  height: 400rem;
-  background-image: url('../../../assets/palm\ tree.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-  z-index: 0;
-} */
 .home-wrapper{
   position: relative;
   height: 100vh;
   overflow-x: hidden;
-  /* padding-top: 30rem; */
 }
 
 .header-bar {
-  /* position: relative; */
   top: 0;
   width: 100%;
-  /* z-index: 10; */
 }
 
 .palm-tree {
