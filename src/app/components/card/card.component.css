@@ -71,7 +71,7 @@
   .card-content {
       padding: 0.25rem 0.5rem;
       margin: 0.5rem auto;
-      max-width: 200px;
+      max-width: 80%;
     }
 
     .card-title,
