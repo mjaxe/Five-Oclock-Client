@@ -79,5 +79,9 @@ app-header-bar {
     width: 35rem;
     height: 200rem;
   }
-  
+
+  .five-oclock-card {
+    margin: 15rem auto 15rem;
+  }
+
 }
