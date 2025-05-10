@@ -85,25 +85,42 @@
     .card-title,
     .card-drink-title {
       font-size: 2rem; 
-      font-weight: 200;
+      font-weight: 300;
     }
 
     .card-area {
       font-size: 3rem; 
-      font-weight: 200;
+      font-weight: 400;
     }
 
   .card-drink-recipe p {
     margin: 0.2rem;
     font-size: 2.2rem; 
-    font-weight: 200;
+    font-weight: 400;
   }
 
   .card-drink-recipe li {
     font-size: 2rem; 
-    font-weight: 200;
+    font-weight: 300;
     padding-left: 0.5rem; /* indents the bullet */
   }
+
+  .new-area {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+  }
+
+  .loader {
+    max-width: 80%;
+    margin: 1rem auto;
+  }
+
+  .loader img {
+    margin: 0.7rem;
+  }
+
 }
 /* .card-drink-recipe li::before {
   content: "•";
@@ -130,6 +147,8 @@
 
   .new-area {
     color: white;
+    font-size: 2rem;
+    font-weight: 300;
     width: 100%;
     margin: 0.5rem 0;
     padding: 0.6rem;
@@ -145,6 +164,7 @@
   .loader {
     color: white;
     font-size: 2.4rem;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -84,4 +84,8 @@ app-header-bar {
     margin: 15rem auto 15rem;
   }
 
+  .home-wrapper{
+    padding-top: 20rem;
+  }
+
 }
