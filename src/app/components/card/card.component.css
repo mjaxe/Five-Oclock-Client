@@ -43,8 +43,75 @@
     font-weight: 300;
     text-align: center;
   }
+.card-drink-recipe {
+  text-align: center;
+}
 
-  .card-drink-recipe {
+.card-drink-recipe p {
+  margin: 0.4rem;
+  font-size: 2.8rem; 
+  font-weight: 300;
+}
+
+.card-drink-recipe ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* centers the list block */
+  display: inline-block; /* keeps it centered */
+  text-align: left; /* aligns bullets inside the block */
+}
+
+.card-drink-recipe li {
+  font-size: 1.4rem; 
+  font-weight: 300;
+  padding-left: 1rem; /* indents the bullet */
+  position: relative;
+}
+@media (max-width: 798px) {
+  .card-content {
+      padding: 0.25rem 0.5rem;
+      margin: 0.5rem auto;
+    }
+
+    .card-title,
+    .card-area,
+    .card-drink-title,
+    .card-drink-recipe {
+      margin: 0.25rem 0;
+      padding: 0.5rem;
+    }
+    
+    .card-title,
+    .card-drink-title {
+      font-size: 1.1rem; 
+      font-weight: 150;
+    }
+
+    .card-area {
+      font-size: 1.9rem; 
+      font-weight: 150;
+    }
+
+  .card-drink-recipe p {
+    margin: 0.2rem;
+    font-size: 1.4rem; 
+    font-weight: 150;
+  }
+
+  .card-drink-recipe li {
+    font-size: 0.7rem; 
+    font-weight: 150;
+    padding-left: 0.5rem; /* indents the bullet */
+  }
+}
+/* .card-drink-recipe li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+} */
+
+  /* .card-drink-recipe {
     text-align: center;
   }
 
@@ -58,27 +125,20 @@
     font-weight: 300;
     text-align: left;
     margin-left: 20rem;
-  }
+  } */
 
   .new-area {
+    color: white;
     width: 100%;
     margin: 0.5rem 0;
     padding: 0.6rem;
-    border: none; /* removes default border */
+    border: none; 
     border-radius: 16px;
     background-color: orange;
-    font-size: 1.6rem; /* optional: clean, readable size */
-    cursor: pointer; /* makes it feel like a button */
+    font-size: 1.6rem; 
+    cursor: pointer; 
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
-    outline: none; /* removes the focus ring (can be customized instead) */
-  }
-
-
-
-  .card-drink-recipe ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    outline: none; 
   }
 
   .loader {
