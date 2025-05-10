@@ -62,7 +62,7 @@
 }
 
 .card-drink-recipe li {
-  font-size: 1.4rem; 
+  font-size: 2.4rem; 
   font-weight: 300;
   padding-left: 1rem; /* indents the bullet */
   position: relative;
@@ -125,7 +125,7 @@
 
   .new-area {
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 300;
     width: 100%;
     margin: 0.5rem 0;
