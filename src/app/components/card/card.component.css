@@ -118,7 +118,7 @@
   }
   
   .loader img {
-    /* max-width: 80%; */
+    max-width: 100px;
     margin: 0.7rem;
   }
 
