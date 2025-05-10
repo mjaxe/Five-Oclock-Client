@@ -116,8 +116,9 @@
     max-width: 80%;
     margin: 0.5rem;
   }
-
+  
   .loader img {
+    max-width: 80%;
     margin: 0.7rem;
   }
 
@@ -153,6 +154,7 @@
   .loader img {
     margin: 1rem;
     height: auto;
+    max-width: 800px;
     border-radius: 20px;
   }
 
