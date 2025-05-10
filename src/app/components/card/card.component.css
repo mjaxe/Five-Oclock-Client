@@ -78,30 +78,30 @@
     .card-area,
     .card-drink-title,
     .card-drink-recipe {
-      margin: 0.25rem 0;
-      padding: 0.5rem;
+      margin: 0.4rem 0;
+      padding: 1.5rem;
     }
     
     .card-title,
     .card-drink-title {
-      font-size: 1.1rem; 
-      font-weight: 150;
+      font-size: 2rem; 
+      font-weight: 200;
     }
 
     .card-area {
-      font-size: 1.9rem; 
-      font-weight: 150;
+      font-size: 3rem; 
+      font-weight: 200;
     }
 
   .card-drink-recipe p {
     margin: 0.2rem;
-    font-size: 1.4rem; 
-    font-weight: 150;
+    font-size: 2.2rem; 
+    font-weight: 200;
   }
 
   .card-drink-recipe li {
-    font-size: 0.7rem; 
-    font-weight: 150;
+    font-size: 2rem; 
+    font-weight: 200;
     padding-left: 0.5rem; /* indents the bullet */
   }
 }

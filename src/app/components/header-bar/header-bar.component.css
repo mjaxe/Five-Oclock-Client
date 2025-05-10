@@ -33,3 +33,10 @@
     width: 100%;
     color: orange;
   } 
+
+  @media (max-width: 798px) {
+    .header-content {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
