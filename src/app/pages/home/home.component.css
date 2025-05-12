@@ -1,7 +1,19 @@
-.home-wrapper{
+/* .home-wrapper{
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
+} */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+}
+.main-content {
+  flex-grow: 1;
+  position: relative;
 }
 
 .header-bar {
@@ -14,12 +26,13 @@
   right: -25rem;
   top: 23rem;
   width: 70rem;
-  height: 400rem;
+  height: calc(100vh - 25rem);
   background-image: url('../../../assets/palm\ tree.png');
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
   z-index: 0;
+  overflow: hidden;
 }
 
 .five-oclock-card {
@@ -30,6 +43,7 @@
 
 @media (max-width: 768px) {
   .palm-tree {
+    top: 15rem;
     right: -12rem;
     width: 35rem;
     height: 200rem;

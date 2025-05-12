@@ -137,8 +137,7 @@
   padding: 0.6rem;
   border: none; 
   border-radius: 16px;
-  background-color: orange;
-  font-size: 1.6rem; 
+  background-color: orange; 
   cursor: pointer; 
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
   outline: none; 
