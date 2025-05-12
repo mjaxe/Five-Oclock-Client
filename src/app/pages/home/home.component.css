@@ -14,6 +14,7 @@
 .main-content {
   flex-grow: 1;
   position: relative;
+  margin-bottom: 25rem;
 }
 
 .header-bar {
@@ -43,10 +44,9 @@
 
 @media (max-width: 768px) {
   .palm-tree {
-    top: 15rem;
+    top: 20rem;
     right: -12rem;
     width: 35rem;
-    height: 200rem;
   }
 
   .five-oclock-card {
