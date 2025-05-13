@@ -4,7 +4,15 @@
     </div>
     <div class="card-area">
         <p>
-            <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city }}
+            <a
+                [href]="getGoogleSearchLink()"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="location-link"
+            >
+                <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city }}
+            </a>
+            <!-- <b>{{ area.zone.country }}</b>, {{ area.zone.state }} {{ area.zone.city }} -->
         </p>
     </div>
     <div class="card-drink-title">

@@ -16,6 +16,14 @@ export class CardComponent {
   
   constructor(private areaService: AreaService){}
 
+  getGoogleSearchLink(): string {
+    const {country, state, city} = this.area.zone;
+
+    const partsOfArea = [country, state, city].filter(Boolean)
+    const location = partsOfArea.join(', ')
+    return `https://www.google.com/search?q=${encodeURIComponent(location)}`;
+  }
+
   showNewArea(){
     this.isLoading = true
 
