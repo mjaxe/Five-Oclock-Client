@@ -33,7 +33,6 @@
 }
 
 .footer-label {
-
   margin-bottom: 0.5rem;
   color: #664229; 
 }
@@ -56,6 +55,12 @@
 }
 
 @media (max-width: 798px) {
+
+  .footer-label,
+  .footer-text {
+    font-size: 2rem;
+  }
+
   .footer-content {
     padding-bottom: 4rem;
   }
