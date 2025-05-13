@@ -42,7 +42,7 @@
   position: relative;
 }
 .spacer {
-  height: 10rem;
+  height: 5rem;
 }
 
 @media (max-width: 768px) {
@@ -54,7 +54,7 @@
   }
 
   .spacer {
-    height: 8rem;
+    height: 3rem;
   }
 
   .five-oclock-card {

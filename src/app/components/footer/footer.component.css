@@ -1,6 +1,6 @@
-.footer-bar {
+/* .footer-bar {
     margin-top: auto;
-    background-color: #f4e2c2; /* sand color */
+    background-color: #f4e2c2;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     color: #333;
@@ -18,9 +18,72 @@
   }
   
   .footer-text {
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 1.9rem;
     letter-spacing: 0.5px;
   }
   
-  
+   */
+
+.footer-bar {
+  margin-top: auto;
+  background: linear-gradient(to top, #f4e2c2, #fffbe6); /* sand to light beach tone */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  color: #333;
+  padding: 10rem 1rem 3rem 10rem;
+  border-top: 4px solid #e3caa0;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 6rem;
+  gap: 1rem;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #664229; 
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d99458; 
+  transform: scale(1.1);
+}
+
+.footer-text {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+@media (max-width: 798px) {
+  .footer-content {
+    padding-bottom: 4rem;
+  }
+
+  .footer-bar {
+    padding: 6rem 1rem 3rem 6rem;
+  }
+}
