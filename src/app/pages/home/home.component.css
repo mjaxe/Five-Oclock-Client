@@ -27,7 +27,7 @@
   right: -25rem;
   top: 23rem;
   width: 70rem;
-  height: calc(100vh - 25rem);
+  height: calc(100vh - 22rem);
   background-image: url('../../../assets/palm\ tree.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -42,14 +42,19 @@
   position: relative;
 }
 .spacer {
-  height: 15rem;
+  height: 10rem;
 }
 
 @media (max-width: 768px) {
   .palm-tree {
+    top: 21rem;
     right: -12rem;
     width: 35rem;
-    height: calc(100vh - 25rem);
+    height: calc(100vh - 22rem);
+  }
+
+  .spacer {
+    height: 8rem;
   }
 
   .five-oclock-card {
