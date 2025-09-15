@@ -26,28 +26,6 @@ export class CardComponent {
 
   showNewArea(){
     this.isLoading = true
-
-    // this.areaService.getAreaHardCoded().subscribe(data => {
-    //   this.area = data;
-    //   this.drinkName = data.drink.split('\n')[0].replace('.','');
-    //   this.drinkIngredients = data.drink.split('\n').slice(1).map(item => item.replace(/^\s*/, ''));
-    // }) 
-
-     this.areaService.getAreaThroughBackend().subscribe(data => {
-      this.area = data
-      this.drinkName = data.drink.split('\n')[0].replace('.','');
-      this.drinkIngredients = data.drink.split('\n').slice(1).map(item => item.replace(/^\s*/, ''));
-      this.isLoading = false
-    })
-  }
-
-  ngOnInit() {
-    // this.areaService.getAreaHardCoded().subscribe(data => {
-    //   this.area = data;
-    //   this.drinkName = data.drink.split('\n')[0].replace('.','');
-    //   this.drinkIngredients = data.drink.split('\n').slice(1).map(item => item.replace(/^\s*/, ''));
-    // })
-
     this.areaService.getAreaThroughBackend().subscribe(data => {
       this.area = data
       this.drinkName = data.drink.split('\n')[0].replace('.','');
@@ -56,4 +34,12 @@ export class CardComponent {
     })
   }
 
+  ngOnInit() {
+    this.areaService.getAreaThroughBackend().subscribe(data => {
+      this.area = data
+      this.drinkName = data.drink.split('\n')[0].replace('.','');
+      this.drinkIngredients = data.drink.split('\n').slice(1).map(item => item.replace(/^\s*/, ''));
+      this.isLoading = false
+    })
+  }
 }
